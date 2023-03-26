@@ -1,0 +1,47 @@
+:root {
+  --mane-bacgraund-color: #ffffff;
+  --menu-text-color: #2e2f42;
+  --hover-focus-color: #404bbf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--mane-bacgraund-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+}
+
+.logo-second {
+  color: var(--menu-text-color);
+}
+
+.menu.menu-items {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--menu-text-color);
+}
+
+.contacts {
+  font-style: normal;
+  color: #434455;
+}
