@@ -2,6 +2,7 @@
   --mane-bacgraund-color: #ffffff;
   --menu-text-color: #2e2f42;
   --hover-focus-color: #404bbf;
+  --bottom-text-color: #F4F4FD;
 }
 
 body {
@@ -33,7 +34,7 @@ body {
   color: var(--menu-text-color);
 }
 
-.menu .menu-items {
+.menu-items-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -41,9 +42,134 @@ body {
   color: var(--menu-text-color);
 }
 
-.address {
-  font-style: normal;
+.menu-items-link:hover,
+.menu-items-link:focus {
+  color: var(--hover-focus-color);
 }
 
+.list-items {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
-/* color: #434455; */
+.list-items-link {
+  font-style: normal;
+  color: #434455;
+}
+
+.list-items-link:hover,
+.list-items-link:focus {
+  color: var(--hover-focus-color);
+}
+
+.hero-page {
+  background-color: var(--menu-text-color);
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--mane-bacgraund-color);
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--mane-bacgraund-color);
+  background-color: #4D5AE5;
+  cursor: pointer;
+}
+
+.principles,
+.staff,
+.menu-pages {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--menu-text-color);
+}
+
+.principles-text,
+.positions {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.third-section-title,
+.fourth-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.fourth-section {
+  background-color: var(--bottom-text-color);
+  width: 1440px;
+  height: 732px;
+  left: 0px;
+  top: 1548px;
+}
+
+.fourth-section-title {
+  color: var(--menu-text-color);
+}
+
+.page-bottom {
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 2280px;
+  background-color: var(--menu-text-color);
+}
+
+.bottom-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--bottom-text-color);
+}
+
+.bottom-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--bottom-text-color);
+}
+
+.portfolio-menu-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--bottom-text-color);
+  color: #4D5AE5;
+  cursor: pointer;
+}
+
+.reaction:hover,
+.reaction:focus {
+  background-color: var(--hover-focus-color);
+  color: var(--mane-bacgraund-color);
+}
+
+.menu-pages-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
