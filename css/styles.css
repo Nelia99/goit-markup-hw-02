@@ -1,6 +1,6 @@
 :root {
   --mane-bacgraund-color: #ffffff;
-  --menu-text-color: #2e2f42;
+  --title-text-color: #2e2f42;
   --hover-focus-color: #404bbf;
   --bottom-text-color: #F4F4FD;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .logo-second {
-  color: var(--menu-text-color);
+  color: var(--title-text-color);
 }
 
 .menu-items-link {
@@ -39,7 +39,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--menu-text-color);
+  color: var(--title-text-color);
 }
 
 .menu-items-link:hover,
@@ -64,8 +64,12 @@ body {
   color: var(--hover-focus-color);
 }
 
+.address {
+  font-style: normal;
+}
+
 .hero-page {
-  background-color: var(--menu-text-color);
+  background-color: var(--title-text-color);
 }
 
 .main-title {
@@ -73,10 +77,12 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--mane-bacgraund-color);
 }
 
 .button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -86,14 +92,19 @@ body {
   cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
 .principles,
 .staff,
 .menu-pages {
   font-weight: 500;
   font-size: 20px;
-  line-height: calc(24 / 20);
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--menu-text-color);
+  color: var(--title-text-color);
 }
 
 .principles-text,
@@ -109,10 +120,11 @@ body {
 .fourth-section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(40 / 36);
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: var(--title-text-color);
 }
 
 .fourth-section {
@@ -123,8 +135,16 @@ body {
   top: 1548px;
 }
 
-.fourth-section-title {
-  color: var(--menu-text-color);
+.fourth-section-list {
+  background-color: var(--mane-bacgraund-color);
+}
+
+.staff {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+  color: var(--title-text-color);
 }
 
 .page-bottom {
@@ -132,13 +152,13 @@ body {
   height: 312px;
   left: 0px;
   top: 2280px;
-  background-color: var(--menu-text-color);
+  background-color: var(--title-text-color);
 }
 
 .bottom-logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.2;
   color: var(--bottom-text-color);
 }
 
@@ -151,6 +171,7 @@ body {
 }
 
 .portfolio-menu-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -166,10 +187,12 @@ body {
   color: var(--mane-bacgraund-color);
 }
 
+.menu-pages {}
+
 .menu-pages-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
