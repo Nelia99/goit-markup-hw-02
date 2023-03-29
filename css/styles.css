@@ -126,10 +126,6 @@ body {
 
 .fourth-section {
   background-color: var(--bottom-text-color);
-  width: 1440px;
-  height: 732px;
-  left: 0px;
-  top: 1548px;
 }
 
 .fourth-section-list {
@@ -154,10 +150,6 @@ body {
 
 
 .page-bottom {
-  width: 1440px;
-  height: 312px;
-  left: 0px;
-  top: 2280px;
   background-color: var(--title-text-color);
 }
 
@@ -191,14 +183,6 @@ body {
 .reaction:focus {
   background-color: var(--hover-focus-color);
   color: var(--mane-bacgraund-color);
-}
-
-.menu-pages-list {
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
 }
 
 .menu-pages {
