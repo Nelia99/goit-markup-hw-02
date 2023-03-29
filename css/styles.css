@@ -97,8 +97,7 @@ body {
   background-color: #404bbf;
 }
 
-.principles,
-.staff {
+.principles {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -141,9 +140,18 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+
+.staff-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 
 .page-bottom {
   width: 1440px;
@@ -156,7 +164,7 @@ body {
 .bottom-logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.2em;
   color: var(--bottom-text-color);
 }
 
@@ -183,6 +191,14 @@ body {
 .reaction:focus {
   background-color: var(--hover-focus-color);
   color: var(--mane-bacgraund-color);
+}
+
+.menu-pages-list {
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 156px;
+  top: 288px;
 }
 
 .menu-pages {
